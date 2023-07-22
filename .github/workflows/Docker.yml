@@ -17,7 +17,7 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: programa
-        path: /
+        path: .
         
     - name: Display structure of downloaded files
       run: ls -R
